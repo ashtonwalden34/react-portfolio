@@ -1,5 +1,6 @@
 import React from 'react';
-import WebAppData from "../../utils/webApps"
+import AppCard from '../appCard';
+import WebAppData from "../../utils/webApps";
 
 function projectsContainer() {
     const webApps = WebAppData
