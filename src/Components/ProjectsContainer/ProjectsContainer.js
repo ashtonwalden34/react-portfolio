@@ -7,13 +7,14 @@ function projectsContainer() {
     return(
         <div>
             <h2>Check out some apps I've built</h2>
-            {WebApps.map(project => (
+            {webApps.map(project => (
                 <AppCard
                     key={project.id}
                     title={project.title}
                     description={project.description}
                     appLink={project.appLink}
                     repository={project.repository}
+                    technologiesUsed={project.technologies}
                     screenshot={project.screenshot}
                 />
             ))}
