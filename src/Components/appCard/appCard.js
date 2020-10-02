@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 
 function AppCard({ title, description, appLink, repository, technologies, screenshot }) {
+
     return(
         <div className="row cardBody">
             <div className="col col-lg-4">

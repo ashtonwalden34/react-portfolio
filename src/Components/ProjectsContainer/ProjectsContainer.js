@@ -1,6 +1,6 @@
 import React from 'react';
-import AppCard from '../AppCard';
-import WebAppData from "../../utils/webApps";
+import AppCard from '../AppCard/appCard'
+import WebAppData from '../../utils/webApps.js';
 
 function projectsContainer() {
     const webApps = WebAppData
@@ -8,17 +8,19 @@ function projectsContainer() {
     return(
         <div>
             <h2>Check out some apps I've built</h2>
-            {webApps.map(project => (
-                <AppCard
-                    key={project.id}
-                    title={project.title}
-                    description={project.description}
-                    appLink={project.appLink}
-                    repository={project.repository}
-                    technologiesUsed={project.technologies}
-                    screenshot={project.screenshot}
-                />
-            ))}
+            <div>
+                {webApps.map(webApp => (
+                    <AppCard
+                        key={webApp.id}
+                        title={webApp.title}
+                        description={webApp.description}
+                        appLink={webApp.appLink}
+                        repository={webApp.repository}
+                        technologiesUsed={webApp.technologies}
+                        screenshot={webApp.screenshot}
+                    />
+                ))}
+            </div>
         </div>
     )
 }

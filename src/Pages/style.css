@@ -1,0 +1,25 @@
+.img-container {
+    width: 30vw;
+    height: 20vw;
+    margin: 10px;
+}
+
+.portfolioImg {
+    width: 30vw;
+    height: 20vw;
+    margin: 10px;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+.socialIcon {
+    padding: 10px
+}
+
