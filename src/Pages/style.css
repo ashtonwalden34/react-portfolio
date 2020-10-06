@@ -16,10 +16,13 @@ aside {
     margin-left: 15px;
     float: right;
     font-style: italic;
-    background-color: lightgray;
+    background-color: #272727;
 }
 
 .socialIcon {
     padding: 10px
 }
 
+body {
+    background-color: #272727;
+}

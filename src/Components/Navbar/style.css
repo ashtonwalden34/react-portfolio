@@ -8,10 +8,14 @@ nav {
 }
 
 a {
-    color: ivory
+    color: blue
 }
 
 .links {
     margin: 0px;
     width: 400px
+}
+
+.navbar {
+    background-color: #747474;
 }
