@@ -1,14 +1,5 @@
-html {
-  background-color: #272727;
-}
-
 .App {
   text-align: center;
-  background-color: #272727;
-}
-
-.Row {
-  background-color: #272727;
 }
 
 .App-logo {
@@ -23,7 +14,7 @@ html {
 }
 
 .App-header {
-  background-color: #272727;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -47,10 +38,5 @@ html {
 }
 
 .jumbotron {
-  background-color: #272727;
-  color: white;
-}
-
-body {
-  background-color: #27272727;
+  background-color: white;
 }
