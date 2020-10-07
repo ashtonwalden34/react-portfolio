@@ -6,7 +6,7 @@ export default [
         "appLink": " https://offlineofflinetracker.herokuapp.com/",
         "respository": "https://github.com/ashtonwalden34/progressive-budget",
         "technologies": ["HTML", "CSS", "JavaScript", "Express", "MongoDB", "Mongoose", "Compression", "Service Worker", "Data Caching"],
-        "screenshot": ""
+        "screenshot": require('../Pages/assets/progressiveBudget.png')
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@ export default [
         "appLink": "https://shielded-springs-86009.herokuapp.com/",
         "respository": "https://github.com/ashtonwalden34/note-taker",
         "technologies": ["HTML", "CSS", "JavaScript", "JSON", "jQuery"],
-        "screenshot": ""
+        "screenshot": require('../Pages/assets/noteTaker.png')
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@ export default [
         "appLink": "https://boiling-sea-09640.herokuapp.com/",
         "respository": "https://github.com/ashtonwalden34/fitness-tracker",
         "technologies": [],
-        "screenshot": ""
+        "screenshot": require('../Pages/assets/fitnessTracker.png')
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@ export default [
         "appLink": "https://ashtonwalden34.github.io/homework-5/",
         "respository": "https://github.com/ashtonwalden34/day-planner",
         "technologies": [],
-        "screenshot": ""
+        "screenshot": require('../Pages/assets/dayPlanner.png')
     },
     {
         "id": 5,
@@ -42,16 +42,16 @@ export default [
         "appLink": "https://drive.google.com/file/d/1Tv4v91ZfrDvzfO8Lb41kDE7UoqhJCJvU/view?usp=sharing",
         "respository": "https://github.com/ashtonwalden34/team-profile-generator",
         "technologies": [],
-        "screenshot": ""
+        "screenshot": require('../Pages/assets/teamProfileGenerator.png')
     },
     {
         "id": 6,
-        "title": "User Directory",
+        "title": "Employee Directory",
         "description": "A react app designed to allow the user to search through a directory of people. Includes searching by state and sorting by first name.",
         "appLink": " https://ashtonwalden34.github.io/employee-directory/",
         "respository": " https://github.com/ashtonwalden34/employee-directory",
         "technologies": [],
-        "screenshot": ""
+        "screenshot": require('../Pages/assets/employeeDirectory.png')
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@ export default [
         "appLink": "https://stormy-badlands-40287.herokuapp.com/",
         "respository": "https://github.com/ashtonwalden34/burger-logger",
         "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "handlebars", "Node", "Express", "MySQL", "AJAX", "jQuery"],
-        "screenshot": ""
+        "screenshot": require('../Pages/assets/burgerLogger.png')
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@ export default [
         "appLink": "https://ashtonwalden34.github.io/weather-dashboard/",
         "respository": "https://github.com/ashtonwalden34/weather-dashboard",
         "technologies": [],
-        "screenshot": ""
+        "screenshot": require('../Pages/assets/weatherDashboard.png')
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@ export default [
         "appLink": "https://drive.google.com/file/d/1_owe8KCxh9Yah4te--o_kWMX5ABJlMuA/view?usp=sharing",
         "respository": "https://github.com/ashtonwalden34/employee-management-system",
         "technologies": [],
-        "screenshot": ""
+        "screenshot": require('../Pages/assets/ems.png')
     },
     {
         "id": 10,
@@ -87,6 +87,6 @@ export default [
         "appLink": "",
         "respository": " https://github.com/jherd801/lancer",
         "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "JSX", "React", "Bootstrap", "MongoDB", "Mongoose", "Express"],
-        "screenshot": ""
+        "screenshot": 'Need to add screenshot, work in progress'
     }
 ]
