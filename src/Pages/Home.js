@@ -10,7 +10,7 @@ const HOME = () => (
       I recenlty graduated from the Univeristy of Utah's web coding bootcamp program.
     </p>
     <div className='profilePicContainer'>
-      <img src={require('../assets/profilePic.jpg')} alt='Profile Picture' className='profilePic'/>
+      <img src={require('../assets/profilePic.jpg')} alt='Profile Pic' className='profilePic'/>
     </div>
   </div>
 );

@@ -8,7 +8,7 @@ function projectsContainer() {
     return(
         <div>
             <h2>Check out some apps I've built</h2>
-            <div>
+            <div className="appCards">
                 {webApps.map(webApp => (
                     <AppCard
                         key={webApp.id}

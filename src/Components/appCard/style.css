@@ -1,6 +1,8 @@
 .screenshot {
-    width: 90%;
+    width: 25rem;
     vertical-align: auto;
+    border: solid red 2px;
+    height: 15rem;
 }
 
 .cardBody {

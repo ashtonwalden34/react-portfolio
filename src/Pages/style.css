@@ -26,3 +26,43 @@ aside {
 body {
     background-color: #272727;
 }
+
+
+
+.row {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.docWrapper {
+    display: inline-table;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    border: solid red 2px;
+    width: 15rem;
+    height: 5rem;
+    background-color: #282c34;
+    border-radius: 4px;
+}
+
+.docWrapper:hover {
+    background-color: #45A29E;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.docWrapper {
+    background-color: #272727;
+}
+
+
+
+.resumeWrapper {
+    padding-bottom: 15px;
+}

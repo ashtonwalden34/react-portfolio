@@ -1,3 +1,5 @@
+// import Pdf from "../../assets/resume.pdf"
+
 export const MenuItems = [
     {
         title: 'Home',
@@ -10,8 +12,8 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Resumé',
-        url: '/resume',
+        title: 'Documents',
+        url: '/documents',
         cName: 'nav-links'
     },
     {
