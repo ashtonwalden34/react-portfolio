@@ -1,4 +1,8 @@
-.img-container {
+body {
+    background-color: #272727;
+}
+
+/* .img-container {
     width: 30vw;
     height: 20vw;
     margin: 10px;
@@ -8,26 +12,62 @@
     width: 30vw;
     height: 20vw;
     margin: 10px;
-}
+} */
 
-aside {
+/* aside {
     width: 30%;
     padding-left: 15px;
     margin-left: 15px;
     float: right;
     font-style: italic;
     background-color: #272727;
-}
-
-.socialIcon {
-    padding: 10px
-}
-
-body {
-    background-color: #272727;
-}
+} */
 
 
+/* Home Page */
+    .aboutMeWrapper {
+        width: 75vw;
+        display: inline-block;
+    }
+
+    .aboutMeTitle {
+        color: #66FCF1;
+        text-decoration: underline;
+    }
+
+    .aboutMeBody {
+        color: #C5C6C7;
+    }
+
+    .randomFactsWrapper {
+        width: 75%;
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #45A29E;
+    }
+
+    .factsLabel {
+        text-decoration: underline;
+    }
+
+    .randomFacts {
+        background-color: #1F2833;
+        margin: 0;
+    }
+
+    .factsLabel {
+        color: #1F2833;
+    }
+
+    .fact {
+        /* Take away bullet point like on navbar */
+        color: #45A29E;
+    }
+
+/* Projects Page */
+
+
+/* Documents Page */
 .docsWrapper {
     background-color: #272727;
 }
@@ -45,4 +85,10 @@ body {
     max-width: 800px;
     height: 450px;
     padding-bottom: 25px;
+}
+
+
+/* Contact Page */
+.socialIcon {
+    padding: 10px
 }

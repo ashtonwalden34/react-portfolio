@@ -1,13 +1,14 @@
 import React from 'react';
 import AppCard from '../AppCard/appCard'
 import WebAppData from '../../utils/webApps.js';
+import './ProjectsContainer.css'
 
 function projectsContainer() {
     const webApps = WebAppData
 
     return(
         <div>
-            <h2>Check out some apps I've built</h2>
+            <h2 className='header'>Check out some apps I've built</h2>
             <div className="appCards">
                 {webApps.map(webApp => (
                     <AppCard
