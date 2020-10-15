@@ -37,6 +37,7 @@ body {
 
     .aboutMeBody {
         color: #C5C6C7;
+        margin-bottom: 10vh;
     }
 
     .randomFactsWrapper {
@@ -89,6 +90,15 @@ body {
 
 
 /* Contact Page */
+.contactHeader {
+    color:#66FCF1;
+    text-decoration: underline;
+}
+
+.contactText {
+    color:#C5C6C7;
+}
+
 .socialIcon {
     padding: 10px
 }

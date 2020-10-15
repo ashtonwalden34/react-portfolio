@@ -10,7 +10,6 @@ function Documents() {
             <embed src={Certificate} className="certificate"></embed>
             <br/>
             <embed src={Resume} className="resume"></embed>
-            <h1>Test Text</h1>
         </div>
         
     )
