@@ -6,21 +6,14 @@ import "./style.css"
 
 function Documents() {
     return (
-        <div className="row">
-           <div className="docWrapper">
-                <a href={Resume} target="_blank" rel="noopener noreferrer" className="docLink">
-                    Resumé
-                </a>
-            </div>
-            <div className="docWrapper">
-                <a href={Certificate} target="_blank" rel="noopener noreferrer" className="docLink">
-                    University of Utah Coding Bootcamp Certificate
-                </a>
-            </div>
+        <div className='docsWrapper'>
+            <embed src={Certificate} className="certificate"></embed>
+            <br/>
+            <embed src={Resume} className="resume"></embed>
+            <h1>Test Text</h1>
         </div>
+        
     )
 }
 
 export default Documents;
-
-{/* <Link to="/portfolio/webdev"><img src={require('../assets/Web.png')} className="portfolioImg" alt="Coding pic"/></Link> */}

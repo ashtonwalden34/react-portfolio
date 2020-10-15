@@ -31,7 +31,9 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">Ashton Walden<i className="fab fa-react"></i></h1>
+                <h1 className="navbar-logo">Ashton Walden
+                    {/* <i className="fab fa-react"></i> */}
+                </h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     {/* If clicked the icon will change to an x and if not it will show bars */}
                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
@@ -40,7 +42,7 @@ class Navbar extends Component {
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
                         return(
-                            <li key={index}>
+                            <li className='nav-li' key={index}>
                                 <a className={item.cName} href={item.url}>
                                     {item.title}
                                 </a>

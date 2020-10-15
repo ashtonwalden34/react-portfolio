@@ -28,41 +28,21 @@ body {
 }
 
 
-
-.row {
-    background-color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: center;
-    align-self: center;
-    align-items: center;
-    align-content: center;
-}
-
-.docWrapper {
-    display: inline-table;
-    color: white;
-    text-decoration: none;
-    margin: 10px;
-    border: solid red 2px;
-    width: 15rem;
-    height: 5rem;
-    background-color: #282c34;
-    border-radius: 4px;
-}
-
-.docWrapper:hover {
-    background-color: #45A29E;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
-}
-
-.docWrapper {
+.docsWrapper {
     background-color: #272727;
 }
 
+.certificate {
+    padding-top: 25px;
+    width: 70%;
+    max-width: 600px;
+    height: 300px;
+    padding-bottom: 25px;
+}
 
-
-.resumeWrapper {
-    padding-bottom: 15px;
+.resume {
+    width: 90%;
+    max-width: 800px;
+    height: 450px;
+    padding-bottom: 25px;
 }

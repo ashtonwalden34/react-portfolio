@@ -3,18 +3,18 @@ import { SocialIcon } from "react-social-icons";
 import "./style.css"
 
 const Contact = () => (
-    <div>
+    <div className="contactPageWrapper">
         <h1>CONTACT</h1>
-        <div>
+        <div className="contactContentWrapper">
             <p>Visit my GitHub, LinkedIn or feel free to send an email</p>
-            <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="solcialIcon">
+            <div className="socialIconWrapper">
+                <div className="socialIcon" id="socialIcon">
                     <SocialIcon url="https://www.linkedin.com/in/ashton-walden-81172619b/" target="_blank" />
                 </div>
-                <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="solcialIcon">
+                <div className="socialIcon" id="socialIcon">
                     <SocialIcon url="https://github.com/ashtonwalden34" target="_blank" />
                 </div>
-                <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="solcialIcon">
+                <div className="socialIcon" id="socialIcon">
                     <SocialIcon url="mailto:ashtonwalden34@gmail.com" target="_blank" />
                 </div>
             </div>
