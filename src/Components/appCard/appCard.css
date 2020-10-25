@@ -1,10 +1,3 @@
-.screenshot {
-    width: 25rem;
-    vertical-align: auto;
-    height: 15rem;
-    border-radius: 4px;
-}
-
 .cardBody {
     padding-bottom: 5px;
     padding-top: 5px;
@@ -12,6 +5,13 @@
     border-radius: 4px;
     margin: 15px;
     background-color: #1F2833;
+}
+
+.screenshot {
+    width: 25rem;
+    vertical-align: auto;
+    height: 15rem;
+    border-radius: 4px;
 }
 
 .projectTitle {
@@ -25,11 +25,54 @@
     display: inline-block;
 }
 
-
 .projectBtn {
     margin-left: 25px;
     margin-right: 25px;
     background-color: #66FCF1;
     color: #1F2833;
     border-radius: 4px;
+}
+
+@media screen and (min-width: 770px) {
+    .cardBody {
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: solid 2px #66FCF1;
+        border-radius: 4px;
+        margin: 15px;
+        background-color: #1F2833;
+        height: 25rem;
+    }
+    
+    .screenshot {
+        width: 50%;
+        height: 20rem;
+        vertical-align: auto;
+        border-radius: 4px;
+        float: left;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    
+    .projectTitle {
+        color: #66FCF1;
+        margin-bottom: 0;
+    }
+    
+    .projectDescription {
+        color: #C5C6C7;
+        width: 40%;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    
+    .projectBtn {
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #66FCF1;
+        color: #1F2833;
+        border-radius: 4px;
+        width: 7rem;
+    }
 }

@@ -3,7 +3,7 @@ import ProjectsContainer from "../Components/ProjectsContainer/ProjectsContainer
 import "./style.css"
 
 const projects = () => (
-    <div>
+    <div className='projectsWrapper'>
         <ProjectsContainer/>
     </div>
 );

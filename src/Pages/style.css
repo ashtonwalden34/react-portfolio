@@ -45,10 +45,12 @@ body {
         display: inline-block;
         border-radius: 4px;
         background-color: #45A29E;
+        margin: 10px;
     }
 
     .factsLabel {
         text-decoration: underline;
+        margin: 2vh;
     }
 
     .randomFacts {
@@ -62,11 +64,10 @@ body {
 
     .fact {
         /* Take away bullet point like on navbar */
-        color: #45A29E;
+        color: #C5C6C7;
     }
 
 /* Projects Page */
-
 
 /* Documents Page */
 .docsWrapper {
