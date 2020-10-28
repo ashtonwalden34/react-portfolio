@@ -1,5 +1,5 @@
 import React from 'react';
-import AppCard from '../AppCard/appCard'
+import AppCard from '../AppCard/appCard.js'
 import WebAppData from '../../utils/webApps.js';
 import './ProjectsContainer.css'
 
