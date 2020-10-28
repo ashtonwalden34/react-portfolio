@@ -47,10 +47,10 @@
     .screenshot {
         width: 50%;
         height: 20rem;
-        vertical-align: auto;
+        vertical-align: center;
         border-radius: 4px;
         float: left;
-        padding-top: 10px;
+        padding-top: 25px;
         padding-left: 15px;
     }
     
