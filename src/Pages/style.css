@@ -68,6 +68,9 @@ body {
     }
 
 /* Projects Page */
+.projectsWrapper {
+    background-color: #0b0c10;
+}
 
 /* Documents Page */
 .docsWrapper {

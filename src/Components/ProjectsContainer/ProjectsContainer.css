@@ -1,3 +1,8 @@
 .header {
     color: #66FCF1;
 }
+
+.appCards {
+    width: fit-content;
+    display: inline-block;
+}

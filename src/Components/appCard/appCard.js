@@ -4,7 +4,7 @@ import './appCard.css';
 function AppCard({ title, description, appLink, repository, technologies, screenshot }) {
 
     return(
-        <div className="row cardBody">
+        <div className="cardBody">
             <div className="screenShotWrapper">
                 <img src={screenshot} alt="project screenshot" className="screenshot"/>
             </div>

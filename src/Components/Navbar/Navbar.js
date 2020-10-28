@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { MenuItems } from './MenuItems';
-// import { Button } from '../Button/Button';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
  
@@ -27,7 +26,7 @@ class Navbar extends Component {
                         return(
                             <li className='nav-li' key={index}>
                                 <div className={item.cName}>
-                                <Link to={item.url}>
+                                <Link to={item.url} className='links'>
                                     {item.title}
                                 </Link>
                                 </div>

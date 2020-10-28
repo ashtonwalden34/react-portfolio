@@ -5,10 +5,12 @@
     border-radius: 4px;
     margin: 15px;
     background-color: #1F2833;
+    right: 50;
+    width: 75vw;
 }
 
 .screenshot {
-    width: 25rem;
+    width: 65vw;
     vertical-align: auto;
     height: 15rem;
     border-radius: 4px;
@@ -21,7 +23,7 @@
 
 .projectDescription {
     color: #C5C6C7;
-    width: 25rem;
+    width: 65vw;
     display: inline-block;
 }
 
@@ -31,6 +33,7 @@
     background-color: #66FCF1;
     color: #1F2833;
     border-radius: 4px;
+    font-size: small;
 }
 
 @media screen and (min-width: 770px) {
@@ -68,8 +71,8 @@
     }
     
     .projectBtn {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
         background-color: #66FCF1;
         color: #1F2833;
         border-radius: 4px;

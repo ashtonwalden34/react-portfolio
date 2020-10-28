@@ -60,6 +60,10 @@
     display: none;
 }
 
+.links {
+    color: #C5C6C7;
+}
+
 @media screen and (max-width: 960px) {
     .NavbarItems {
         position: relative;
@@ -125,12 +129,21 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
+        margin-right: 0;
+    }
+
+    .menu-icon:hover {
+        background-color: #45A29E;
     }
 
     .fa-times {
-        color: #fff;
-        font-size: 2rem;
+        color: #C5C6C7;
     }
+
+    .fa-bars {
+        color: #C5C6C7;
+    }
+
 
     /* .nav-links-mobile {
         display: block;
