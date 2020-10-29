@@ -7,7 +7,7 @@ function projectsContainer() {
     const webApps = WebAppData
 
     return(
-        <div>
+        <div className='projectsPageWrapper'>
             <h2 className='header'>Check out some apps I've built</h2>
             <div className="appCards">
                 {webApps.map(webApp => (

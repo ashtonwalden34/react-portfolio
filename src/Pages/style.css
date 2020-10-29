@@ -25,6 +25,10 @@ body {
 
 
 /* Home Page */
+    .homePageWrapper {
+        background-color: #282c34;
+    }
+
     .aboutMeWrapper {
         width: 75vw;
         display: inline-block;
@@ -94,6 +98,10 @@ body {
 
 
 /* Contact Page */
+.contactPageWrapper {
+    background-color: #282c34;
+}
+
 .contactHeader {
     color:#66FCF1;
     text-decoration: underline;
