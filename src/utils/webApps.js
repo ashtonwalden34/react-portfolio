@@ -11,7 +11,7 @@ export default [
     {
         "id": 2,
         "title": "Note Taker",
-        "description": "Allows the user to name, write, save, and delete notes easily through simple text input.",
+        "description": "An app that allows the user to name, write, save, and delete notes easily through simple text input. Provides the user with an easy to use interface so checking past notes is made easy.",
         "appLink": "https://shielded-springs-86009.herokuapp.com/",
         "respository": "https://github.com/ashtonwalden34/note-taker",
         "technologies": ["HTML", "CSS", "JavaScript", "JSON", "jQuery"],
@@ -20,7 +20,7 @@ export default [
     {
         "id": 3,
         "title": "Fitness Tracker",
-        "description": "",
+        "description": "An application designed to help the user track workouts. Providing specific inputs for cardio and weight training workouts.",
         "appLink": "https://boiling-sea-09640.herokuapp.com/",
         "respository": "https://github.com/ashtonwalden34/fitness-tracker",
         "technologies": [],
@@ -80,13 +80,13 @@ export default [
         "technologies": [],
         "screenshot": require('../Pages/assets/ems.png')
     },
-    {
-        "id": 10,
-        "title": "Lancer",
-        "description": "An app designed to allow freelance workers to create listings and adveritise their services for potential employers.",
-        "appLink": "",
-        "respository": " https://github.com/jherd801/lancer",
-        "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "JSX", "React", "Bootstrap", "MongoDB", "Mongoose", "Express"],
-        "screenshot": 'Need to add screenshot, work in progress'
-    }
+    // {
+    //     "id": 10,
+    //     "title": "Lancer",
+    //     "description": "An app designed to allow freelance workers to create listings and adveritise their services for potential employers.",
+    //     "appLink": "",
+    //     "respository": " https://github.com/jherd801/lancer",
+    //     "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "JSX", "React", "Bootstrap", "MongoDB", "Mongoose", "Express"],
+    //     "screenshot": 'Need to add screenshot, work in progress'
+    // }
 ]
