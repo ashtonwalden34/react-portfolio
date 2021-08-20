@@ -21,7 +21,7 @@ const HOME = () => (
       <ul className='randomFacts'>
         <li className='fact'>I was the captain of my high school basketball team at American Preparatory Academy in West Valley City, Utah.</li>
         <br />
-        <li className='fact'>Growing up I originally wanted to be a physicist or an engineer and even did an internship at Mixtec North America.</li>
+        <li className='fact'>Growing up I originally wanted to be a physicist or an engineer and even did an internship at Mixtec North America, a small industrial mixeer manufacutrer based in Salt Lake City, Utah.</li>
         <br />
         <li className='fact'>I'm currently training Brazilain Jiu-Jitsu with Team Fusion in Salt Lake City, Utah.</li>
       </ul>
