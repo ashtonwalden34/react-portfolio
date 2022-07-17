@@ -1,5 +1,5 @@
 import React  from "react";
-import Resume from './assets/updatedResume.pdf'
+import Resume from './assets/updated-resume.pdf'
 import Certificate from './assets/bootcampCert.pdf'
 import "./style.css"
 

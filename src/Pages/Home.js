@@ -11,9 +11,8 @@ const HOME = () => (
       <p className='aboutMeBody'>
         Hi, I'm Ashton. I'm a computer science student with a focus in web development. 
         I am currently enrolled at Salt Lake Community College, I am set to graduate in the spring of 2021.
-      </p>
-      <br></br>
-      <p className='aboutMeBody'>
+        <br></br>
+        <br></br>
         I am a graduate of the University of Utah's web development coding bootcamp program, which consits of a rigourous 6 month
         course designed to provide individuals with in demand skills for the workplace.
       </p>
